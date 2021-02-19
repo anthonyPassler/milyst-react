@@ -1,0 +1,32 @@
+@import "../../styles/colors";
+@import "mixins";
+
+.banner {
+  padding: 16px 8px 200px 8px;
+  background-color: $milyst__purple;
+  text-align: center;
+  position: relative;
+  color: white;
+  @include angle(after);
+  h1 {
+    margin: 32px auto;
+  }
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  span {
+    color: $milyst__green;
+  }
+  .iphone-container {
+    position: absolute;
+    left: 50%;
+  }
+  .iphone {
+    width: 200px;
+    height: auto;
+    margin: 40px auto;
+    position: relative;
+    left: -50%
+  }
+}

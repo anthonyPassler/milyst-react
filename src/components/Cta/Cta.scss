@@ -1,0 +1,16 @@
+@import "../../styles/colors";
+
+.cta {
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  background-color: $milyst__green;
+  color: $milyst__purple;
+  transition: 0.3s;
+  display: inline-block;
+  &:hover {
+    text-decoration: none;
+    color: $milyst__purple;
+    background-color: $milyst__hoverGreen;
+  }
+}
