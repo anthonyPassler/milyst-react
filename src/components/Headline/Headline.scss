@@ -1,0 +1,23 @@
+@import "../../styles/colors";
+
+.how-it-works {
+  text-align: center;
+  margin-top: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  h2 {
+    font-weight: bold;
+    font-size: 28px;
+    color: $milyst__purple;
+    margin-bottom: 30px;
+    line-height: 1;
+    &:after {
+        content: "";
+        display: block;
+        width: 80px;
+        padding-top: 8px;
+        border-bottom: 8px solid $milyst__green;
+        margin: auto;
+    }
+  }
+}
