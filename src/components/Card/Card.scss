@@ -1,0 +1,16 @@
+@import "../../styles/colors";
+
+.steps {
+  text-align: center;
+  margin: 32px auto;
+  h3 {
+    max-width: 80%;
+    margin: auto;
+    color: $milyst__purple;
+  }
+  img {
+    margin: 24px auto;
+    width: 200px;
+    height: auto;
+  }
+}
